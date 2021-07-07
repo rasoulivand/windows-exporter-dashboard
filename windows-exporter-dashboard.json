@@ -3,7 +3,7 @@
     {
       "name": "DS_PROMETHEUS",
       "label": "Prometheus",
-      "description": "",
+      "description": "this dashboard Imports Data directly from prometheus datasource",
       "type": "datasource",
       "pluginId": "prometheus",
       "pluginName": "Prometheus"
@@ -60,9 +60,9 @@
       }
     ]
   },
-  "description": "Windows Exporter Dashboard",
+  "description": "Windows Exporter Dashboard Created By Ismaeil Rasoulivand with love",
   "editable": true,
-  "gnetId": 12566,
+  "gnetId": 14694,
   "graphTooltip": 1,
   "id": null,
   "iteration": 1625682631492,
@@ -2480,7 +2480,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Windows Exporter",
+  "title": "Windows Exporter Dashboard",
   "uid": "7UlnHoGZz",
   "version": 47
 }
