@@ -2,7 +2,10 @@
 Windows Exporter Dashboard
 [in grafana dashboards](https://grafana.com/grafana/dashboards/14694)
 
+# If You've installed windows expxorter already
 
+* Open up `Control Panel` and uninstall `windows_exporter` from `Programs and Features`
+ 
 # Usage
 To use this dashboard you must install windows exporter from [here](https://github.com/prometheus-community/windows_exporter) and after that you do not have to do any other thing. dashboard will show what you saw in snapshots.
 
