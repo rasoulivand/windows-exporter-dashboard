@@ -1391,7 +1391,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "(avg without (cpu) (sum(irate(windows_cpu_time_total{instance=\"$server\",mode!=\"idle\"}[5m])) by (mode)) / 16)* 100",
+          "expr": "(avg without (cpu) (sum(irate(windows_cpu_time_total{instance=\"$server\",mode!=\"idle\"}[5m])) by (mode)))* 100",
           "format": "time_series",
           "intervalFactor": 1,
           "legendFormat": "{{mode}}",
